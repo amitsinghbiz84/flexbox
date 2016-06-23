@@ -1,0 +1,26 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+// Modules 
+//@import "modules/carousel.scss";
+
+a {
+	font-size: 18px;
+	font-weight: bold;
+}
+.browsehappy {
+  background: #ccc;
+  color: #000;
+  margin: .2em 0;  
+  padding: .2em 0;
+}
+
+.container {
+  padding: 10px 0;  
+  @media (min-width: $screen-lg-min) {
+    width: 1014px;
+  }
+}
