@@ -1,28 +1,21 @@
-$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+//$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 // bower:scss
-@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+//@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
+*{margin:0;padding:0;}
+body{font-family: 'Francois One', sans-serif;}
 
 // Modules 
-//@import "modules/carousel.scss";
 
-a {
-	font-size: 18px;
-	font-weight: bold;
-  padding: 10px 0;
-  display: inline-block;
-}
-.browsehappy {
-  background: #ccc;
-  color: #000;
-  margin: .2em 0;  
-  padding: .2em 0;
-}
+//@import "modules/flex-intro.scss"; // Flex Intro
 
-.container {
-  padding: 10px 0;  
-  @media (min-width: $screen-lg-min) {
-    width: 1014px;
-  }
-}
+//@import "modules/flex-direction.scss"; // Flex Direction
+
+//@import "modules/flex-wrap.scss"; // Flex wrapping element
+
+//@import "modules/flex-ordering.scss"; // Easily reorder DOM elements with flexbox ordering
+
+@import "modules/flex-justify-content.scss"; //  Flexbox Alignment + Centering with justify-content
+
+
