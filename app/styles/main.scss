@@ -3,8 +3,29 @@
 // bower:scss
 //@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
+
 *{margin:0;padding:0;}
 body{font-family: 'Francois One', sans-serif;}
+
+.box {
+  color:white;
+  font-size: 100px;
+  text-align: center;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+}
+
+/* Colours for each box */
+.box1 { background:#1abc9c;}
+.box2 { background:#3498db;}
+.box3 { background:#9b59b6;}
+.box4 { background:#34495e;}
+.box5 { background:#f1c40f;}
+.box6 { background:#e67e22;}
+.box7 { background:#e74c3c;}
+.box8 { background:#bdc3c7;}
+.box9 { background:#2ecc71;}
+.box10 { background:#16a085;}
+
 
 // Modules 
 
@@ -12,10 +33,14 @@ body{font-family: 'Francois One', sans-serif;}
 
 //@import "modules/flex-direction.scss"; // Flex Direction
 
+//@import "modules/flex-justify-content.scss"; //  Flexbox Alignment + Centering with justify-content
+
 //@import "modules/flex-wrap.scss"; // Flex wrapping element
+
+//@import "modules/align-content.scss"; // Flex wrapping element
 
 //@import "modules/flex-ordering.scss"; // Easily reorder DOM elements with flexbox ordering
 
-@import "modules/flex-justify-content.scss"; //  Flexbox Alignment + Centering with justify-content
+//@import "modules/flex-grow.scss"; //  Easily scale up or down elements with the flex property
 
-
+@import "modules/tab-menu.scss"; // Tab Menu

@@ -1,0 +1,19 @@
+/* Vertical Align Space between and space around example */
+
+.container {
+  display:flex;
+  height: 100vh;
+  flex-wrap: wrap; // First wrap element
+  //align-content: flex-start;
+  //align-content: flex-end;
+  //align-content: center;
+  
+  //align-content: space-between; // Than space the element
+  //align-content: stretch;
+
+ 
+}
+
+.box {
+  width: 23%;
+}
