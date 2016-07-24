@@ -1,9 +1,9 @@
-//Flex Intro
+.flex-container {
+  display:flex;
+  border: 1px solid #000;
+}
 
-
-
-/* We start writing out flexbox here. The above is just page setup */
-.container {
-  //display:flex;
-  //height:100vh;
+.flex-container-inline {
+	display:inline-flex;
+	border: 1px solid #000;
 }

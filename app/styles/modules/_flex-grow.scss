@@ -2,37 +2,33 @@
 
 /* We start writing out flexbox here. The above is just page setup */
 .container {
-  display:flex;
+	&.flex-grow {
+		display:flex;
+		// Flex Width Example		
+		.box {
+		  flex-basis: 500px;
+		}
+
+		.box1 {
+			flex-grow: 1;
+			flex-shrink: 1; 
+		}
+
+		.box2 {
+			flex-grow: 5;
+			flex-shrink: 10; 
+		}
+	}
+  
 }
 
-// Flex Width Example
-.box {
-  //flex: 1;
-}
 
-.box2 {
-  //flex: 8;
-}
 
-.box4{
-  //flex: 4;
-}
 
-// Flex Grow and basis and Shrink Example
-.box {
-  flex-basis: 500px;
-}
 
-.box1 {
-	//flex-grow: 1;
-	//flex-shrink: 1; 
-}
 
-.box2 {
-	//flex-grow: 1;
-	//flex-grow: 5;
-	//flex-shrink: 10; 
-}
+
+
 
 
 

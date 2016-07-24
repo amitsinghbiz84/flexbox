@@ -26,21 +26,33 @@ body{font-family: 'Francois One', sans-serif;}
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
 
+.link-container {
+	margin: 50px auto;
+	width: 1000px;
+	a {
+		margin-left: 40px;
+		color: #000;
+	}
+	h2 {
+		margin-top: 60px;
+		margin-bottom: 10px;
+	}
+}
 
 // Modules 
 
-//@import "modules/flex-intro.scss"; // Flex Intro
+@import "modules/flex-intro.scss"; // Flex Intro
 
-//@import "modules/flex-direction.scss"; // Flex Direction
+@import "modules/flex-direction.scss"; // Flex Direction
 
-//@import "modules/flex-justify-content.scss"; //  Flexbox Alignment + Centering with justify-content
+@import "modules/flex-justify-content.scss"; //  Flexbox Alignment + Centering with justify-content
 
-//@import "modules/flex-wrap.scss"; // Flex wrapping element
+@import "modules/flex-wrap.scss"; // Flex wrapping element
 
-//@import "modules/align-content.scss"; // Align Content
+@import "modules/align-content.scss"; // Align Content
 
-//@import "modules/flex-ordering.scss"; // Easily reorder DOM elements with flexbox ordering
+@import "modules/flex-ordering.scss"; // Easily reorder DOM elements with flexbox ordering
 
-//@import "modules/flex-grow.scss"; //  Easily scale up or down elements with the flex property
+@import "modules/flex-grow.scss"; //  Easily scale up or down elements with the flex property
 
 @import "modules/tab-menu.scss"; // Tab Menu

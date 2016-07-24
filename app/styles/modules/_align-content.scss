@@ -1,19 +1,34 @@
-/* Vertical Align Space between and space around example */
-
 .container {
-  display:flex;
-  height: 100vh;
-  flex-wrap: wrap; // First wrap element
-  //align-content: flex-start;
-  //align-content: flex-end;
-  //align-content: center;
-  
-  //align-content: space-between; // Than space the element
-  //align-content: stretch;
+	&.align-content {
+		display:flex;
+		height: 100vh;
+		// First wrap element
+		flex-wrap: wrap;
+		.box {
+		  width: 100px;
+		}
 
+		&.flex-start {
+			align-content: flex-start;	
+		}
+
+		&.flex-end {
+			align-content: flex-end;
+		}
+
+		&.flex-center {
+			align-content: center;
+		}
+		&.space-between {
+			align-content: space-between;
+		}
+		&.space-around {
+			align-content: space-around;
+		}
+		&.stretch {
+			align-content: stretch;
+		}
+	}
  
 }
 
-.box {
-  width: 23%;
-}
