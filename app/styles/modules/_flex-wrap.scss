@@ -6,19 +6,18 @@
   &.flex-wrap {  	
  	 height: 100vh;
   	.box {
- 	 width: 400px;
-	}
+ 	   width: 400px;
+	   }
   	flex-wrap: wrap;
-  	//flex-direction: column;
-  	//justify-content: space-around;
+  	//flex-direction: column; // Change the top to bottom
   }
 
-  .flex-wrap-reverse {
+  &.flex-wrap-reverse {
+    height: 100vh;
   	.box {
- 	 width: 100px;
- 	 height: 400px;
-	}
-	flex-wrap: wrap-reverse;
+ 	    width: 400px;
+	   }
+	   flex-wrap: wrap-reverse;
   }
 }
 
